@@ -23,7 +23,7 @@ export const getUserPost = (id) => async (dispatch) => {
     payload: data,
   });
 };
-// https://jsonplaceholder.typicode.com/posts?userId=1
+
 export const updatePost = (setData, id) => async (dispatch) => {
   const { data } = await axios.patch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
     id: setData.id,

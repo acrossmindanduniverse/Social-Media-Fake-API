@@ -29,7 +29,7 @@ const Post = ({ id }) => {
             ...data,
             title: e.target.value
           })}
-          placeholder="title..."
+          placeholder="Title..."
           className="w-full outline-none primary-font"
           type="text"
         />
@@ -41,7 +41,7 @@ const Post = ({ id }) => {
             ...data,
             body: e.target.value
           })}
-          placeholder="your message..."
+          placeholder="Body..."
           className="w-full outline-none primary-font"
           type="text"
         />

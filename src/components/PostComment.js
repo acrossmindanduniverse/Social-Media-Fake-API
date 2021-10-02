@@ -18,8 +18,6 @@ const PostComment = ({ id }) => {
     });
   };
 
-  console.log(comment);
-
   return (
     <div
       role="button"

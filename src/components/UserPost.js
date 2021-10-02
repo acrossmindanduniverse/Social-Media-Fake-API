@@ -40,7 +40,7 @@ const UserPost = ({ id }) => {
     <div>
       {modal && (
         <div className="modal">
-          <Modal id={getData.id} str="Are you sure want to delete this post?" handleDelete={handleDelete} open={setModal} />
+          <Modal id={getData.id} str="Are you sure want to delete this post?" func={handleDelete} open={setModal} />
         </div>
       )}
       <div className="pt-5 space-y-5">
